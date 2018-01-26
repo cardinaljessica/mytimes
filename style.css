@@ -13,7 +13,7 @@ header {
 }
 
 .logo {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
@@ -30,7 +30,7 @@ header {
 }
 
 nav {
-  display: inline-flex;
+  display: flex;
   padding-right: 40px;
   align-items: center;
 }
@@ -42,4 +42,32 @@ nav span {
 
 a {
   color: black
+}
+
+div {
+  border: 1px solid black;
+}
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
