@@ -51,7 +51,7 @@ div {
 .content {
   display: flex;
   width: 1232px;
-  margin 0 auto 78px auto;
+  margin: 0 auto 78px auto;
   padding-top: 116px;
 }
 
@@ -60,6 +60,7 @@ div {
   flex-direction: column;
   margin-right: 32px;
 }
+
 .column.large {
   width: 630px;
 }
